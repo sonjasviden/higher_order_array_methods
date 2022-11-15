@@ -25,19 +25,15 @@ const numbers = [47, 5, 9, 15, 20, 49, 10, 34, 38, 103, 11, 23, 45, 31];
 
 numbers.sort( (a, b) => {
 
-    if (a < b) {
-        return -1;
-    }
+    // if (a < b) {
+    //     return -1;
+    // }
 
-    if (a > b) {
-        return -1;
-    }
+    // if (a > b) {
+    //     return -1;
+    // }
 
-    return 0;
+    return (a-b);
 })
 
 console.log(numbers);
-
-
-
-
