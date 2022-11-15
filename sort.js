@@ -15,6 +15,29 @@
 const names = ["Johan", "Fredrik", "Saman", "Alicia", "Maja", "Elliot"];
 console.log("Names in chaos:", names);
 
-names.sort();
+names.sort(); // Namnen hamnar i alfabetisk ordning
 
-console.log(names);
+names.reverse(); // Namnen hamnar i baklänges alfabetisk ordning
+
+
+
+const numbers = [47, 5, 9, 15, 20, 49, 10, 34, 38, 103, 11, 23, 45, 31];
+
+numbers.sort( (a, b) => {
+
+    if (a < b) {
+        return -1;
+    }
+
+    if (a > b) {
+        return -1;
+    }
+
+    return 0;
+})
+
+console.log(numbers);
+
+
+
+
